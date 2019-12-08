@@ -5,8 +5,8 @@
 
 #define INCREASE_PIN    A0
 #define DECREASE_PIN    A1
-#define RELAY_PIN       A2
-#define START_PIN       A3
+#define START_PIN       A2
+#define RELAY_PIN       A3
 
 #define TIME_ADDR   0x0000
 
@@ -27,7 +27,7 @@ void initSevSeg() {
   byte digitPins[] = { 13, 12, 11, 10 };
   byte segmentPins[] = { 9, 8, 7, 6, 5, 4, 3, 2 };
 
-  sevseg.begin(COMMON_ANODE, 4, digitPins, segmentPins, false, false, true, true);
+  sevseg.begin(COMMON_CATHODE, 4, digitPins, segmentPins, false, false, true, true);
   sevseg.setBrightness(90);
 }
 
