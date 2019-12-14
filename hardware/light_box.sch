@@ -177,13 +177,13 @@ Wire Wire Line
 	6400 2400 6800 2400
 Wire Wire Line
 	6400 2650 6800 2650
-Text Label 6650 1900 0    50   ~ 0
+Text Label 6800 1900 0    50   ~ 0
 D13
-Text Label 6650 2150 0    50   ~ 0
+Text Label 6800 2150 0    50   ~ 0
 D12
-Text Label 6650 2400 0    50   ~ 0
+Text Label 6800 2400 0    50   ~ 0
 D11
-Text Label 6650 2650 0    50   ~ 0
+Text Label 6800 2650 0    50   ~ 0
 D10
 Wire Wire Line
 	3650 1750 3300 1750
@@ -362,17 +362,16 @@ Wire Wire Line
 	3450 4300 3900 4300
 Wire Wire Line
 	3450 4400 3900 4400
-Text Label 3850 4200 0    50   ~ 0
+Text Label 3900 4200 0    50   ~ 0
 A0
-Text Label 3850 4300 0    50   ~ 0
+Text Label 3900 4300 0    50   ~ 0
 A1
-Text Label 3850 4400 0    50   ~ 0
+Text Label 3900 4400 0    50   ~ 0
 A2
-Text Label 3850 4500 0    50   ~ 0
+Text Label 3900 4500 0    50   ~ 0
 A3
 Wire Wire Line
 	3450 4500 3900 4500
-NoConn ~ 3900 4500
 Wire Wire Line
 	8350 1600 8200 1600
 Wire Wire Line
@@ -395,9 +394,9 @@ F 3 "" H 9200 1600 50  0001 C CNN
 	1    9200 1600
 	1    0    0    -1  
 $EndComp
-Text Label 3850 3600 0    50   ~ 0
+Text Label 3900 3600 0    50   ~ 0
 GND
-Text Label 3850 3700 0    50   ~ 0
+Text Label 3900 3700 0    50   ~ 0
 +5V
 $Comp
 L power:+3.3V #PWR?
